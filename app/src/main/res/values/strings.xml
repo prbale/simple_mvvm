@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MVVM Kotlin Example</string>
+    <string name="click_to_start">Click to Start</string>
+    <string name="your_response_here">Response:</string>
 </resources>
