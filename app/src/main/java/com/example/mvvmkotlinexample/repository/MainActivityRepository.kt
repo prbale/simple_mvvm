@@ -19,7 +19,6 @@ object MainActivityRepository {
         call.enqueue(object: Callback<Message> {
 
             override fun onFailure(call: Call<Message>, t: Throwable) {
-
                 Log.v("DEBUG : ", t.message.toString())
             }
 
