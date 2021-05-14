@@ -8,13 +8,15 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnClick"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Click to Start"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/click_to_start"
         android:textColor="#000000"
         android:textSize="15sp"
-        android:layout_margin="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="204dp"
-        android:text="Your Response Here"
+        android:text="@string/response"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/lblResponse"
@@ -52,9 +54,12 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/lblResponse"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="- - -"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        tools:text="Response here"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

@@ -52,8 +52,12 @@ dependencies {
     def logging_version = "4.3.1"
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
-    implementation "com.squareup.okhttp3:okhttp:$logging_version"
-    implementation "com.squareup.okhttp3:logging-interceptor:$logging_version"
+    implementation "com.squareup.okhttp3:okhttp:4.7.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
+
+    // Rx
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.18'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
     // - - WP7 Progress Bar
     implementation 'com.github.shadowalker77:wp7progressbar:1.0.5'
